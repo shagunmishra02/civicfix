@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# SQLite database (don't upload real data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment secrets
+.env
+.env.local
+.env.production
+.jwt_secret
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Uploads (user-submitted photos)
+backend/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
